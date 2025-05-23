@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-int main(){
-    printf("Desafio Xadrez!\n");
-}
 
 struct Carta {
     char codigo[4];
     char estado;
-    char nome_cidade;
+    char nome_cidade[100];
     int populacao;
     float area;
     float pib;
@@ -19,10 +16,10 @@ int main(){
     struct carta2;
     printf("Cadastro da carta1: \n");
     printf("Informe o estado - (Letra A até H): ");
-    scanf("%c", &carta1.estado);
+    scanf(" %c", &carta1.estado);
 
     printf("Informe o código da carta: (ex.: A01)");
-    scanf("%s", carta1.codigo);
+    scanf(" %s", carta1.codigo);
 
     printf("Informe o nome da cidade: ");
     scanf("%[^\n]", carta1.nome_cidade);
@@ -78,6 +75,8 @@ int main(){
     printf("Área: %.2f km²\n", carta2.area);
     printf("PIB: %.2f bilhões de reais\n", carta2.pib);
     printf("Números de pontos turísticos: %d\n", carta2.pontos_turisticos);
+
+    return 0;
 
 }
 
