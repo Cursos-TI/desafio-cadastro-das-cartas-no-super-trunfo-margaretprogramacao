@@ -70,9 +70,14 @@ int main(){
     printf("PIB: %.2f bilhões de reais\n", carta1.pib);
     printf("Números de pontos turísticos: %d\n", carta1.pontos_turisticos);
 
-
-
-
+    printf("\nCarta 2: \n");
+    printf("Estado: %c\n", carta2.estado);
+    printf("Código: %n\n", carta2.codigo);
+    printf("Nome da cidade: %s\n", carta2.nome_cidade);
+    printf("População: %d\n", carta2.populacao);
+    printf("Área: %.2f km²\n", carta2.area);
+    printf("PIB: %.2f bilhões de reais\n", carta2.pib);
+    printf("Números de pontos turísticos: %d\n", carta2.pontos_turisticos);
 
 }
 
