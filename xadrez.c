@@ -28,7 +28,7 @@ int main(){
     printf("Informe a população: ");
     scanf(" %d", &carta1.populacao);
 
-    printf("Informe a área: (km)");
+    printf("Informe a área: (km²)");
     scanf(" %f", &carta1.area);
 
     printf("Informe o PIB: (bilhões)");
@@ -50,7 +50,7 @@ int main(){
     printf("Informe a população: ");
     scanf(" %d", &carta2.populacao);
 
-    printf("Informe a área: (km)");
+    printf("Informe a área: (km²)");
     scanf(" %f", &carta2.area);
 
     printf("Informe o PIB: (bilhões)");
