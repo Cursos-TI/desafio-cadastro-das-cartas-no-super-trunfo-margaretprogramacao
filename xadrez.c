@@ -14,6 +14,7 @@ struct Carta {
 int main(){
     struct Carta carta1;
     struct Carta carta2;
+    
     printf("Cadastro da carta1: \n");
     printf("Informe o estado - (Letra A até H): ");
     scanf(" %c", &carta1.estado);
@@ -22,41 +23,41 @@ int main(){
     scanf(" %s", carta1.codigo);
 
     printf("Informe o nome da cidade: ");
-    scanf("%[^\n]", carta1.nome_cidade);
+    scanf(" %[^\n]", carta1.nome_cidade);
 
     printf("Informe a população: ");
-    scanf("%d", &carta1.populacao);
+    scanf(" %d", &carta1.populacao);
 
     printf("Informe a área: (km)");
-    scanf("%f", &carta1.area);
+    scanf(" %f", &carta1.area);
 
     printf("Informe o PIB: (bilhões)");
-    scanf("%f", &carta1.pib);
+    scanf(%f", &carta1.pib);
 
     printf("Informe o número de pontos turísticos: ");
-    scanf("%d", &carta1.pontos_turisticos);
+    scanf(" %d", &carta1.pontos_turisticos);
 
     printf("Cadastro da carta2: \n");
     printf("Informe o estado - (Letra A até H): ");
-    scanf("%c", &carta2.estado);
+    scanf(" %c", &carta2.estado);
 
     printf("Informe o código da carta: (ex.: A01)");
-    scanf("%s", carta2.codigo);
+    scanf(" %s", carta2.codigo);
 
     printf("Informe o nome da cidade: ");
-    scanf("%[^\n]", carta2.nome_cidade);
+    scanf(" %[^\n]", carta2.nome_cidade);
 
     printf("Informe a população: ");
-    scanf("%d", &carta2.populacao);
+    scanf(" %d", &carta2.populacao);
 
     printf("Informe a área: (km)");
-    scanf("%f", &carta2.area);
+    scanf(" %f", &carta2.area);
 
     printf("Informe o PIB: (bilhões)");
-    scanf("%f", &carta2.pib);
+    scanf(" %f", &carta2.pib);
 
     printf("Informe o número de pontos turísticos: ");
-    scanf("%d", &carta2.pontos_turisticos);
+    scanf(" %d", &carta2.pontos_turisticos);
 
     printf("\nCarta 1: \n");
     printf("Estado: %c\n", carta1.estado);
