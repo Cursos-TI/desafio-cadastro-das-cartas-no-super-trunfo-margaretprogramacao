@@ -14,6 +14,8 @@ struct Carta {
 int main(){
     struct Carta carta1;
     struct Carta carta2;
+    float densidade1, densidade2;
+    float pibpercapita1, pibpercapita2;
 
     printf("Cadastro da carta1: \n");
     printf("Informe o estado - (Letra A até H): ");
