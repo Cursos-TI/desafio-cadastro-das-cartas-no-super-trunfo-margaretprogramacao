@@ -61,6 +61,12 @@ int main(){
     printf("Informe o número de pontos turísticos: ");
     scanf(" %d", &carta2.pontos_turisticos);
 
+    densidade1 = carta1.populacao / carta1.area;
+    pibpercapita1 = (carta1.pib * 1000000000 / carta1.populacao);
+
+    densidade2 = carta2.populacao / carta2.area;
+    pibpercapita2 = (carta2.pib * 1000000000 / carta2.populacao);
+
     printf("\nCarta 1: \n");
     printf("Estado: %c\n", carta1.estado);
     printf("Código: %n\n", carta1.codigo);
