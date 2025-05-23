@@ -16,6 +16,7 @@ int main(){
     struct Carta carta2;
     float densidade1, densidade2;
     float pibpercapita1, pibpercapita2;
+    float superpoder1, superpoder2;
 
     printf("Cadastro da carta1: \n");
     printf("Informe o estado - (Letra A até H): ");
@@ -88,6 +89,11 @@ int main(){
     printf("Números de pontos turísticos: %d\n", carta2.pontos_turisticos);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %.2f reais\n", pibpercapita2);
+
+    superpoder1 = (float)carta1.populacao + carta1.area + carta1.pib + carta1.pontos_turisticos + pibpercapita1 + (1.0 / densidade1);
+    superpoder2 = (float)carta2.populacao + carta2.area + carta2.pib + carta2.pontos_turisticos + pibpercapita2 + (1.0 / densidade2);
+
+    
 
     return 0;
 
