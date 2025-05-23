@@ -14,7 +14,7 @@ struct Carta {
 int main(){
     struct Carta carta1;
     struct Carta carta2;
-    
+
     printf("Cadastro da carta1: \n");
     printf("Informe o estado - (Letra A até H): ");
     scanf(" %c", &carta1.estado);
@@ -32,7 +32,7 @@ int main(){
     scanf(" %f", &carta1.area);
 
     printf("Informe o PIB: (bilhões)");
-    scanf(%f", &carta1.pib);
+    scanf("%f", &carta1.pib);
 
     printf("Informe o número de pontos turísticos: ");
     scanf(" %d", &carta1.pontos_turisticos);
