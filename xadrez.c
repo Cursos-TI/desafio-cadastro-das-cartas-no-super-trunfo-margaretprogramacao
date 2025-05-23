@@ -12,5 +12,35 @@ struct Carta {
     float area;
     float pib;
     int pontos_turisticos;
+}
+
+int main(){
+    struct carta1;
+    struct carta2;
+    printf("Cadastro da carta1: \n");
+    printf("Informe o estado - (Letra A até H): ");
+    scanf("%c", &carta1.estado);
+
+    printf("Informe o código da carta: (ex.: A01)");
+    scanf("%s", carta1.codigo);
+
+    printf("Informe o nome da cidade: ");
+    scanf("%[^\n]", carta1.nome_cidade);
+
+    printf("Informe a população: ");
+    scanf("%d", &carta1.populacao);
+
+    printf("Informe a área: (km)");
+    scanf("%f", &carta1.area);
+
+    printf("Informe o PIB: (bilhões)");
+    scanf("%f", &carta1.pib);
+
+    printf("Informe o número de pontos turísticos: ");
+    scanf("%d", &carta1.pontos_turisticos);
+
+
 
 }
+
+
