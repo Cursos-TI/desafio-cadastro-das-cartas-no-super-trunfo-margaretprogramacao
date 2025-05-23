@@ -9,11 +9,11 @@ struct Carta {
     float area;
     float pib;
     int pontos_turisticos;
-}
+};
 
 int main(){
-    struct carta1;
-    struct carta2;
+    struct Carta carta1;
+    struct Carta carta2;
     printf("Cadastro da carta1: \n");
     printf("Informe o estado - (Letra A até H): ");
     scanf(" %c", &carta1.estado);
